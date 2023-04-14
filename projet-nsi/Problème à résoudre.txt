@@ -1,0 +1,11 @@
+Collision avec le bloc (   pygame.Rect(character_rec.topleft[0]+8, character_rec.topleft[1], 20, 58)   )
+Collision avec un ascenseur (   pygame.Rect(personnage.get_x()+12, personnage.get_y()-4, 16, 10)   )
+
+Collision pied : pygame.Rect(personnage_en_mouvement.get_x()+12, personnage_en_mouvement.get_rect().topleft[1], 16, 57)
+Collision pied 2 : pygame.Rect(personnage_en_mouvement.get_x()+12, personnage_en_mouvement.get_y()-2, 16, 3)
+
+Problème elevateur => Résolution : Ne pas supprimer le personnage lorsqu'il saut mais le supprimer lorsqu'il sort à gauche ou à droite de la zone de collision. (ATTENTION : modifier en conséquence la fonction qui enlève le saut du personnage sinon ce-dernier ne pourra plus sauter)
+
+Revoir le fonctionnement des boutons
+
+Revoir les trois conditions inutiles dans la fonction afficher_composant

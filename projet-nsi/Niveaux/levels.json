@@ -1,0 +1,647 @@
+{
+    "levels": [
+               {
+            "name": "Tutoriel",
+            "contraintes":{
+                "gemme": [2,1],
+                "temps": 30
+            },
+            "components": {
+                "button": [
+                    {
+                        "position": [1020, 650],
+                        "id": "1"
+                    },
+                    {
+                        "position": [1000, 497],
+                        "id": "2"
+                    }
+                ],
+                
+
+                "elevator": 
+                [
+                {
+                    "position": [1091, 653],
+                    "highPos": [1091, 499],
+                    "id":"1"
+                },
+		{
+                    "position": [1091, 653],
+                    "highPos": [1091, 499],
+                    "id":"2"
+                }
+                ],
+                "bloc": [
+                    {
+                        "position": [70,653]
+                    }
+                ],
+                "liquide":[
+		    {
+			"position": [300,650],
+			"id": 1
+		    },
+		    {
+			"position": [400,650],
+			"id": 2
+		    }
+                ],
+                "gemme": [
+                    {
+                        "position": [210, 600],
+                        "id": 0
+                    },
+		    {
+			"position": [1091,603],
+			"id": 1
+		    },
+		    {
+			"position": [350,450],
+			"id": 0
+		    }
+                ],
+                "portes": [
+                    {
+                        "position": [20, 500],
+                        "index": 1
+                    },
+                    {
+                        "position": [120, 500],
+                        "index": 2
+                    }
+                ]
+                 
+            },
+            "floors": [
+                653,
+                500
+            ]
+        },
+	{
+            "name": "Un bloc ??",
+            "contraintes":{
+                "gemme": [2,2],
+                "temps": 80
+            },
+            "components": {
+                "platforme": 
+                    [
+                    {
+                        "position": []
+                    }
+                    ]
+                
+                ,
+                "button": [
+                    {
+                        "position": [100, 650],
+                        "id": "1"
+                    },
+					{
+						"position": [700,495],
+						"id": "2"
+					}
+                ],
+                "elevator": 
+                [
+                {
+                    "position": [1091, 653],
+                    "highPos": [1091, 500],
+                    "id":"1"
+                },
+				{
+                    "position": [1091, 653],
+                    "highPos": [1091, 500],
+                    "id":"2"
+                },
+				{
+                    "position": [220, 440],
+                    "highPos": [220, 440],
+                    "id":"1"
+                },
+				{
+                    "position": [40, 410],
+                    "highPos": [40, 410],
+                    "id":"1"
+                },
+				{
+                    "position": [120,410],
+                    "highPos": [120, 410],
+                    "id":"1"
+                }
+                ],
+                "bloc": [
+                    {
+                        "position": [70,653]
+                    },
+					{
+						"position": [800,500]
+					}
+                ],
+                "liquide":[
+
+                ],
+                "gemme": [
+                    {
+                        "position": [210, 600],
+                        "id": 0
+                    },
+					{
+                        "position": [1090, 600],
+                        "id": 1
+                    },
+					{
+                        "position": [610, 394],
+                        "id": 0
+                    },
+					{
+                        "position": [240, 392],
+                        "id": 1
+                    }
+                ],
+                "portes": [
+                    {
+                        "position": [40, 410],
+                        "index": 1
+                    },
+                    {
+                        "position": [120,410],
+                        "index": 2
+                    }
+                ]
+                 
+            },
+            "floors": [
+                653,
+                500
+            ]
+        },
+       {
+            "name": "Attention à la marche !",
+            "contraintes":{
+                "gemme": [3,3],
+                "temps": 120
+            },
+            "components": {
+                "button": [
+                    {
+                        "position": [1020, 650],
+                        "id": "1"
+                    },
+                    {
+                        "position": [1000, 497],
+                        "id": "2"
+                    },
+                    {
+                        "position": [200, 497],
+                        "id": "3"
+                    },
+                    {
+                        "position": [300, 347],
+                        "id": "4"
+                    }
+                ],
+                
+
+                "elevator": 
+                [
+                {
+                    "position": [1091, 653],
+                    "highPos": [1091, 500],
+                    "id":"1"
+                },
+		{
+                    "position": [1091, 653],
+                    "highPos": [1091, 500],
+                    "id":"2"
+                },
+		{
+                    "position": [23, 503],
+                    "highPos": [23, 350],
+                    "id":"3"
+                },
+		{
+                    "position": [20, 503],
+                    "highPos": [20, 350],
+                    "id":"4"
+                }
+                ],
+                "bloc": [
+                    {
+                        "position": [70,653]
+                    },
+		    {
+                        "position": [800,503]
+                    },		   
+		    {
+			"position": [200,353]
+		    }
+                ],
+                "liquide":[
+		    {
+			"position": [300,650],
+			"id": 1
+		    },
+		    {
+			"position": [600,650],
+			"id": 2
+		    },
+		    {
+			"position": [650,650],
+			"id": 2
+		    },
+		    {
+			"position": [600,497],
+			"id": 1
+		    },
+		    {
+			"position": [300,497],
+			"id": 2
+		    },
+		    {
+			"position": [720,347],
+			"id": 3
+		    }
+
+                ],
+                "gemme": [
+                    {
+                        "position": [210, 603],
+                        "id": 0
+                    },
+		    {
+			"position": [1091,603],
+			"id": 1
+		    },
+		    {
+			"position": [315,453],
+			"id": 0
+		    },
+		    {
+			"position": [615,453],
+			"id": 1
+		    },
+		    {
+			"position": [400,303],
+			"id": 1
+		    },
+		    {
+			"position": [500,303],
+			"id": 0
+		    }
+                ],
+                "portes": [
+                    {
+                        "position": [1090, 350],
+                        "index": 1
+                    },
+                    {
+                        "position": [990, 350],
+                        "index": 2
+                    }
+                ]
+                 
+            },
+            "floors": [
+               		 653,
+                	 500,
+                	 350
+               ]
+        },
+{
+            "name": "Attention à la marche",
+            "contraintes":{
+                "gemme": [4,4],
+                "temps": 180
+            },
+            "components": {
+                "platforme": 
+                    [
+                    {
+                        "position": []
+                    }
+                    ]
+                
+                ,
+                "button": [
+                    {
+                        "position": [100, 650],
+                        "id": "1"
+                    },
+					{
+						"position": [700,498],
+						"id": "2"
+					},
+					{
+						"position": [450,318],
+						"id": "3"
+					},
+					{
+						"position": [650,258],
+						"id": "4"
+					}
+                ],
+                "elevator": 
+                [
+                {
+                    "position": [1091, 653],
+                    "highPos": [1091, 510],
+                    "id":"1"
+                },
+				{
+                    "position": [1091, 653],
+                    "highPos": [1091, 510],
+                    "id":"2"
+                },
+				{
+                    "position": [220, 440],
+                    "highPos": [220, 440],
+                    "id":"1"
+                },
+				{
+                    "position": [100, 410],
+                    "highPos": [100, 410],
+                    "id":"1"
+                },
+				{
+                    "position": [220,380],
+                    "highPos": [220, 380],
+                    "id":"1"
+                },
+				{
+                    "position": [320, 350],
+                    "highPos": [320, 350],
+                    "id":"1"
+                },
+				{
+                    "position": [420, 320],
+                    "highPos": [420, 320],
+                    "id":"1"
+                },
+				{
+					"position": [520,500],
+					"highPos": [520,290],
+					"id": "3"
+				},
+				{
+					"position": [520,500],
+					"highPos": [520,290],
+					"id": "4"
+				},
+				{
+                    "position": [620, 260],
+                    "highPos": [620, 260],
+                    "id":"1"
+                },
+				{
+                    "position": [720, 230],
+                    "highPos": [720, 230],
+                    "id":"1"
+                },
+				{
+                    "position": [800, 230],
+                    "highPos": [800, 230],
+                    "id":"1"
+                }
+                ],
+                "bloc": [
+					{
+						"position": [800,500]
+					}
+                ],
+                "liquide":[
+				{
+					"position": [400,650],
+					"id" : "2"
+				},
+				{
+					"position": [800,650],
+					"id" : "1"
+				}
+
+                ],
+                "gemme": [
+                    {
+                        "position": [210, 600],
+                        "id": 0
+                    },
+					{
+                        "position": [1120, 600],
+                        "id": 1
+                    },
+					{
+                        "position": [610, 394],
+                        "id": 0
+                    },
+					{
+                        "position": [140, 380],
+                        "id": 1
+                    },
+					{
+                        "position": [350, 320],
+                        "id": 0
+                    },
+					{
+                        "position": [450, 270],
+                        "id": 1
+                    },
+					{
+                        "position": [550, 240],
+                        "id": 0
+                    },
+					{
+                        "position": [650, 210],
+                        "id": 1
+                    }
+                ],
+                "portes": [
+                    {
+                        "position": [720, 230],
+                        "index": 1
+                    },
+                    {
+                        "position": [800,230],
+                        "index": 2
+                    }
+                ]
+                 
+            },
+            "floors": [
+                653,
+                500
+            ]
+			
+        },   
+	{
+            "name": "Plus vite !!!",
+            "contraintes":{
+                "gemme": [5,3],
+                "temps": 210
+            },
+            "components": {
+                "button": [
+                    {
+                        "position": [1020, 650],
+                        "id": "1"
+                    },
+                    {
+                        "position": [1000, 497],
+                        "id": "2"
+                    },
+                    {
+                        "position": [200, 497],
+                        "id": "3"
+                    },
+                    {
+                        "position": [300, 348],
+                        "id": "4"
+                    },
+                    {
+                        "position": [800, 348],
+                        "id": "5"
+                    }
+                ],
+                
+
+                "elevator": 
+                [
+                {
+                    "position": [1091, 653],
+                    "highPos": [1091, 500],
+                    "id":"1"
+                },
+		{
+                    "position": [1091, 653],
+                    "highPos": [1091, 500],
+                    "id":"2"
+                },
+		{
+                    "position": [20, 503],
+                    "highPos": [1091, 350],
+                    "id":"3"
+                },
+		{
+                    "position": [20, 503],
+                    "highPos": [1091, 350],
+                    "id":"4"
+                },
+                {
+                    "position": [1091, 353],
+                    "highPos": [1091, 200],
+                    "id":"5"
+                },
+                {
+                    "position": [700,307],
+                    "highPos": [700,307],
+                    "id":"6"
+                }
+                ],
+                "bloc": [
+                    {
+                        "position": [70,653]
+                    },
+		    {
+                        "position": [800,503]
+                    },
+		    {
+			"position": [200,353]
+		    },
+		    {
+			"position": [500,203]
+		    }
+                ],
+                "liquide":[
+		    {
+			"position": [300,650],
+			"id": 1
+		    },
+		    {
+			"position": [350,650],
+			"id": 1
+		    },
+		    {
+			"position": [600,650],
+			"id": 2
+		    },
+		    {
+			"position": [650,650],
+			"id": 3
+		    },
+		    {
+			"position": [700,650],
+			"id": 2
+		    },
+		    {
+			"position": [600,497],
+			"id": 1
+		    },
+		    {
+			"position": [300,497],
+			"id": 2
+		    },
+		    {
+			"position": [720,347],
+			"id": 3
+		    },
+		    {
+			"position": [220,197],
+			"id": 2
+		    }
+                ],
+                "gemme": [
+                    {
+                        "position": [210, 533],
+                        "id": 0
+                    },
+		    {
+			"position": [315,383],
+			"id": 0
+		    },
+		    {
+			"position": [615,383],
+			"id": 1
+		    },
+		    {
+			"position": [400,233],
+			"id": 1
+		    },
+		    {
+			"position": [500,233],
+			"id": 0
+		    },
+		    {
+			"position": [50,100],
+			"id": 0
+		    },
+		    {
+			"position": [50,293],
+			"id": 0
+		    },
+		    {
+			"position": [80,100],
+			"id": 1
+		    }
+                ],
+                "portes": [
+                    {
+                        "position": [1000, 350],
+                        "index": 1
+                    },
+                    {
+                        "position": [900, 350],
+                        "index": 2
+                    }
+                ]
+                 
+            },
+            "floors": [
+			653,
+                	500,
+			350,
+			200
+            ]
+        }
+
+    ]
+}
